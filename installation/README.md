@@ -1,4 +1,5 @@
 # Installation
+# Instalação
 
 Some simple guides to setting up the software on your Raspberry Pi.
 
