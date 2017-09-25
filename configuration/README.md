@@ -1,37 +1,38 @@
-# Configuration
+# Configuração
 
-Some basic guides to configuring your Raspberry Pi.
+Alguns guias básicos para configurar o teu Raspberry Pi.
+
 
 ## Contents
 
-- [raspi-config](raspi-config.md)
-    - The Raspberry Pi configuration tool in Raspbian, allowing you to easily enable features such as the camera, and to change your specific settings such as keyboard layout.
+- [raspi-config](raspi-config.md)    
+   - A ferramenta de configuração Raspberry Pi no Raspbian, permitindo que tu actives facilmente recursos como a câmera e para alterar as tuas configurações específicas, como o layout do teclado.
 - [config.txt](config-txt/README.md)
-    - The Raspberry Pi configuration file.
+    - O ficheiro de configuração Raspberry Pi.
 - [Wireless](wireless/README.md)
-    - Configuring your Pi to connect to a wireless network using the Raspberry Pi 3 and Pi Zero W's inbuilt wireless connectivity, or a USB wireless dongle.
+    - Configurando o teu Pi para conectar-se a uma rede sem fio usando a conexão sem fio embutida no Raspberry Pi 3 e Pi Zero W ou um dongle sem fio USB.
 - [Wireless Access Point](wireless/access-point.md)
-    - Configuring your Pi as a wireless access point using the Raspberry Pi 3 and Pi Zero W's inbuilt wireless connectivity, or a USB wireless dongle.
+    - Configurar o teu Pi como um ponto de acesso sem fio usando a conectividade sem fio embutida Raspberry Pi 3 e Pi Zero W ou um dongle sem fio USB.
 - [Audio Config](audio-config.md)
-    - Switch your audio output between HDMI and the 3.5mm jack.
+    - Mude a saída de áudio entre HDMI e a entrada de 3,5 mm.
 - [Camera Config](camera.md)
-    - Installing and setting up the Raspberry Pi camera board.
+    - Instalando e configurando a placa da câmera Raspberry Pi.
 - [External Storage Config](external-storage.md)
-    - Mounting and setting up external storage on a Raspberry Pi.
+    - Montagem e configuração de armazenamento externo em um Raspberry Pi.
 - [Localisation](localisation.md)
-    - Setting up your Pi to work in your local language/timezone.
+    - Configurando seu Pi para trabalhar em teu idioma / fuso horário local. 
 - [Default pin configuration](pin-configuration.md)
-    - Changing the default pin states.
+    - Alterar os estados dos pinos padrão.  
 - [Device Trees Config](device-tree.md)
-    - Device Trees, overlays, and parameters.
+    - Árvores de dispositivo, sobreposições e parâmetros.  
 - [Kernel Command line](cmdline-txt.md)
-    - How to set options in the kernel command line.
+    - Como definir opções na linha de comando do kernel. 
 - [UART configuration](uart.md)
-    - How to set up the on-board UARTS.
+    - Como configurar o UARTS on-board.
 - [Firmware Warning Icons](warning-icons.md)
-    - Description of warning icons displayed if the firmware detects issues.
+    - Descrição dos ícones de aviso exibidos se o firmware detectar problemas.
 - [Securing your Raspberry Pi](security.md)
-    - Some basic help with making your Raspberry Pi more secure.
+    - Algumas ajudas básicas para tornar o teu Raspberry Pi mais seguro.
 - [Screensaver](screensaver.md)
-    - How to configure screen blanking/screen saver
+    - Como configurar o apagamento de ecrã / protetor de ecrã
 
