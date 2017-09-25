@@ -1,23 +1,23 @@
-# Firmware warning icons
+# Icons de aviso do Firmware
 
-Under certain circumstances, the Raspberry Pi firmware will display a warning icon on the display, to indicate an issue.
+Sob certas circunstâncias, o firmware do Raspberry Pi exibirá um ícone de aviso no visor, indicando um problema.
 
-There are currently three icons that can be displayed.
+Actualmente, existem três ícones que podem ser exibidos.
 
-## Undervoltage warning
+## Aviso de sob tensão
 
-If the power supply to the Raspberry Pi drops below 4.63V (+/-5%), the following icon is displayed.
+Se o fornecimento de energia ao Raspberry Pi cair abaixo de 4.63V (+/- 5%), o seguinte ícone é exibido.
 
 ![Under Voltage](images/under_volt.png)
 
-## Over temperature warning (80-85C)
+## Aviso de temperatura elevada (80-85C)
 
-If the temperature of the SoC is between 80C and 85C, the following icon is displayed. The ARM core(s) will be throttled back in an attempt to reduce the core temperature.
+Se a temperatura do SoC for entre 80C e 85C, o seguinte ícone é exibido. O poder de processamento do processador ARM será reduzidos na tentativa de reduzir a temperatura do núcleo.
 
 ![Over Temperature (80-85C)](images/over_temperature_80_85.png)
 
-## Over temperature warning (over 85C)
+## Aviso de temperatura muito elevada (mais de 85C)
 
-If the temperature of the SoC is over 85C, the following icon is displayed. The ARM core(s) and the GPU will be throttled back in an attempt to reduce the core temperature.
+Se a temperatura do SoC for superior a 85C, o seguinte ícone é exibido. O poder de processamento do processador ARM e o GPU serão reduzidos na tentativa de reduzir a temperatura do núcleo.
 
 ![Over Temperature (85C+)](images/over_temperature_85.png)
