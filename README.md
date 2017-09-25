@@ -4,6 +4,8 @@
 
 This is the official documentation for the Raspberry Pi, written by the [Raspberry Pi Foundation](https://www.raspberrypi.org/) with community contributions.
 
+Isto é a documentação oficial para o Raspberry Pi.
+
 ## Contents
 
 - [Setup / Quickstart](setup/README.md)
