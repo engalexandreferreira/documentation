@@ -287,6 +287,4 @@ maxretry = 3
 bantime = -1
 ```
 
-There is a good tutorial on some of the internals of Fail2ban [here](https://www.digitalocean.com/community/tutorials/how-fail2ban-works-to-protect-services-on-a-linux-server). 
-
 Há um bom tutorial sobre alguns dos detalhes do Fail2ban [aqui](https://www.digitalocean.com/community/tutorials/how-fail2ban-works-to-protect-services-on-a-linux-server).
