@@ -26,11 +26,11 @@ Isto é a documentação oficial para o Raspberry Pi, escrito pela [Raspberry Pi
 
 ## Contribuições
 
-Se tu tiveres alguma coisa para consertar ou detalhes para adicionar, primeiro [cria uma notificação] (https://github.com/mariobranco/documentation/issues) no GitHub para ver se é provável que seja aceito, então faz um pedido de Pull Request com as tuas mudança (um PR por notificação).
+Se tu tiveres alguma coisa para consertar ou detalhes para adicionar, primeiro [cria uma notificação](https://github.com/mariobranco/documentation/issues) no GitHub para ver se é provável que seja aceito, então faz um pedido de Pull Request com as tuas mudança (um PR por notificação).
 
 Isto não se destina a ser um wiki aberto; queremos mantê-lo conciso e mínimo, mas aceitará correções e adições adequadas.
 
-Vê nossa [política contributiva] (CONTRIBUTING.md).
+Vê nossa [política contributiva](CONTRIBUTING.md).
 
 ## Licença 
 
