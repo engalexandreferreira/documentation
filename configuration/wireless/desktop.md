@@ -1,13 +1,13 @@
-# Wireless connectivity in the PIXEL desktop
+# Conectividade sem fio no PIXEL
 
-A GUI is provided for setting up wireless connections in Raspbian with the PIXEL desktop. If you are not using the PIXEL desktop, you can set up wireless networking from the [command line](wireless-cli.md).
+Uma GUI é fornecida para configurar conexões sem fio no Raspbian com a área de trabalho PIXEL. Se tu não estiveres a utilizar a área de trabalho PIXEL, tu podes configurar a rede sem fio a partir da [linha de comando](wireless-cli.md).
 
-Wireless connections can be made via the network icon at the right hand end of the menu bar. If a wireless dongle is plugged in, left-clicking this icon will bring up a list of available wireless networks, as shown below. If no networks are found, it will show the message "No APs found - scanning...". Wait a few seconds without closing the menu, and it should find your network.
+As conexões sem fio podem ser feitas através do ícone de rede na extremidade direita da barra de menu. Se uma placa wireless estiver conectado, cliqua com o botão esquerdo deste ícone para exibir uma lista de redes sem fio disponíveis, conforme mostrado abaixo. Se nenhuma rede for encontrada, mostrará a mensagem "Nenhum APs encontrado - Procurando ...". Aguarda alguns segundos sem fechar o menu e deve encontrar a tua rede.
 
 ![wifi2](images/wifi2.png)
 
-The icons on the right show whether a network is secured or not, and give an indication of its signal strength. Click the network that you want to connect to. If it is secured, a dialogue box will prompt you to enter the network key:
+Os ícones à direita mostram se uma rede está segura ou não, e dão uma indicação da força do sinal. Cliqua na rede à qual desejas te conectar. Se tive senha, uma caixa de diálogo solicitará que tu escrevas a senha da rede:
 
 ![key](images/key.png)
 
-Enter the key and press **OK**, then wait a couple of seconds. The network icon will flash briefly to show that a connection is being made. When it is ready, the icon will stop flashing and show the signal strength.
+Digite a senha e pressione **OK**, espere alguns segundos. O ícone da rede irá piscar brevemente para mostrar que uma conexão está sendo feita. Quando estiver pronto, o ícone deixa de piscar e mostra a intensidade do sinal.
