@@ -1,28 +1,29 @@
-# Setting the screen saver/screen blanking
+# Configurar o protector de ecrã / desligar ecrã
 
-## On the Console
+## Na consola
 
-If you are using the Raspberry Pi solely on the console (no desktop GUI), you need to set the console blanking. The current setting, in seconds, can be displayed using
+Se tu estiver usando o Raspberry Pi exclusivamente na console (sem GUI de área de trabalho), tu precisas configurar o bloqueio da console. A configuração atual, em segundos, pode ser exibida usando
+
 ```
 cat /sys/module/kernel/parameters/consoleblank
 ```
 
-Here, `consoleblank` is a kernel parameter. In order to be permanently set, it needs to be defined on the kernel command line.
+Aqui, `consoleblank` é um parâmetro de kernel. Para ser definido permanentemente, ele precisa ser definido na linha de comando do kernel.
 
 ```
 sudo nano /boot/cmdline.txt
 ```
 
-Add `consoleblank=0` to turn screen blanking off completely, or edit it to set the number of seconds of inactivity before the console will blank. Note the kernel command line must be a single line of text.
+Adiciona `consoleblank=0` para desligar a tela completamente ou editá-la para definir o número de segundos de inatividade antes que o console fique desligada. Observa que a linha de comando do kernel deve ser uma única linha de texto.
 
-## On the Desktop (PIXEL)
+## No ambiente de trabalho (PIXEL)
 
-By default, PIXEL does not have any easy-to-use screensaver software installed, although the screensaver is enabled. Firstly, you should install the X Windows screensaver application.
+Por padrão, o PIXEL não possui nenhum software de proteção de tela fácil de usar instalado, embora o protetor de tela esteja habilitado. Em primeiro lugar, tu deves instalar a aplicação "X Windows screensaver".
 
 ```
 sudo apt-get install xscreensaver
 ```
 
-This may take a few minutes.
+Isso pode levar alguns minutos.
 
-Once this has been installed, you can find the screensaver application under the Preferences option on the main desktop menu. This provides many options for setting up the screensaver, or disabling it completely.
+Uma vez que isso foi instalado, tu podes encontrar a aplicação do protector de ecrã sob a opção Preferências no menu principal da área de trabalho. Isso oferece muitas opções para configurar o protector de ecrã ou desativá-lo completamente.
