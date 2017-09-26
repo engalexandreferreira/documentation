@@ -1,41 +1,43 @@
-# Audio configuration
+# Configuração Audio
 
-The Raspberry Pi has two audio output modes: HDMI and headphone jack. You can switch between these modes at any time.
+O Raspberry Pi possui dois modos de saída de áudio: HDMI e tomada de fone de ouvido. Tu podes alternar entre esses modos a qualquer momento.
 
-If your HDMI monitor or TV has built-in speakers, the audio can be played over the HDMI cable, but you can switch it to a set of headphones or other speakers plugged into the headphone jack. If your display claims to have speakers, sound is output via HDMI by default; if not, it is output via the headphone jack. This may not be the desired output setup, or the auto-detection is inaccurate, in which case you can manually switch the output.
+Se o seu monitor HDMI ou TV tiver alto-falantes embutidos, o áudio pode ser reproduzido através do cabo HDMI, mas tu podes alternar para um conjunto de fones de ouvido ou outros alto-falantes conectados à tomada de fone de ouvido. Se o teu monitor afirma ter alto-falantes, o som é emitido via HDMI por padrão, caso contrário, é emitido através da tomada de fone de ouvido. Esta pode não ser a configuração de saída desejada ou a auto-detecção é imprecisa, caso em que tu podes alternar manualmente a saída.
 
-## Changing the audio output
+## Alterar a saída de áudio
 
-There are two ways of setting the audio output.
+Existem duas maneiras de configurar a saída de áudio.
 
-### Command line
+### Linha de comandos
 
-The following command, entered in the command line, will switch the audio output to HDMI:
+O comando a seguir, inserido na linha de comando, alternará a saída de áudio para HDMI:
 
 ```
 amixer cset numid=3 2
 ```
 
-Here the output is being set to `2`, which is HDMI. Setting the output to `1` switches to analogue (headphone jack). The default setting is `0` which is automatic.
+Aqui, a saída está sendo configurada para `2`, que é HDMI. Configurando a saída para `1` muda para analógico (tomada de fone de ouvido). A configuração padrão é `0`, que é automática.
 
 ### raspi-config
 
-Open up [raspi-config](raspi-config.md) by entering the following into the command line:
+Abra [raspi-config](raspi-config.md) digitando o seguinte na linha de comando:
 
 ```
 sudo raspi-config
 ```
 
-This will open the configuration screen:
+Isso abrirá a tela de configuração:
 
 ![raspi-config screen](images/raspi-config.png)
 
 Select Option 8 `Advanced Options` and press `Enter`, then select Option A6: `Audio` and press `Enter`:
 
+Selecione a opção 8 `Advanced Options` e pressione `Enter`, depois selecione opção A6: `Audio` e pressione `Enter`:
+
 ![Audio configuration screen](images/raspi-config-audio.png)
 
-Now you are presented with the two modes explained above as an alternative to the default `Auto` option. Select a mode, press `Enter` and press the right arrow key to exit the options list, then select `Finish` to exit the configuration tool.
+Agora você é apresentado com os dois modos explicados acima como uma alternativa à opção por padrão `Auto`. Selecione um modo, pressiona `Enter` e pressione a tecla de seta para a direita para sair da lista de opções e selecione `Finish` para sair da ferramenta de configuração.
 
-## If you're still not getting sound via HDMI
+## Se tu ainda não estás recebendo som via HDMI
 
-In some rare cases, it is necessary to edit `config.txt` to force HDMI mode (as opposed to DVI mode, which does not send sound). You can do this by editing `/boot/config.txt` and setting `hdmi_drive=2`, then rebooting for the change to take effect.
+Em alguns casos raros, é necessário editar o ficheiro `config.txt` para forçar o modo HDMI (em oposição ao modo DVI, que não envia som). Tu podes fazer isso editando `/boot/config.txt` e configurando `hdmi_drive=2` e reiniciando para que a alteração entre em vigor.
