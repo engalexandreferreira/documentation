@@ -1,10 +1,10 @@
-# Wireless connectivity
+# Conectividade sem fios (wireless)
 
-The following documentation is available:
+A documentação seguinte está disponível: 
 
 - [Desktop](desktop.md)
-    - A guide to setting up wireless networking using the PIXEL desktop.
+    - Um guia para configurar redes sem fio usando a área de trabalho PIXEL.
 - [Command line](wireless-cli.md)
-    - A guide to setting up wireless networking from the command line.
+    - Um guia para configurar a rede sem fio a partir da linha de comando.
 - [Access point](access-point.md)
-    - A guide to setting the Raspberry Pi up as an access point, and as a internet sharing device.
+    - Um guia para configurar o Raspberry Pi como um ponto de acesso e como um dispositivo de compartilhamento de internet.
