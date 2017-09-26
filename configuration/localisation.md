@@ -1,40 +1,44 @@
-# Localisation
+# Localização
 
-Set your Raspberry Pi up to match your regional settings.
+Defina o seu Raspberry Pi para corresponder às suas configurações regionais.
 
 
-## Language
+## Língua
 
 ### NOOBS
 
-To change the language used by NOOBS, you can either press the `L` key on your keyboard, press the up/down arrows to choose the language you want, and then press `Enter`; or you can do the same thing using the mouse. NOOBS will remember your selection, and will use the same language again next time.
+Para alterar o idioma usado pelo NOOBS, tu podes pressionar a tecla `L` 'no teu teclado, pressionar as setas para cima/para baixo para escolher o idioma desejado e em seguida, pressionar `Enter` ou tu podes fazer o mesmo usando o rato. NOOBS lembrará a tua seleção e usará o mesmo idioma novamente na próxima vez.
 
-Alternatively, you can pre-select the language before booting NOOBS for the first time. See [here](https://github.com/raspberrypi/noobs/blob/master/README.md#how-to-change-the-default-language-keyboard-layout-display-mode-or-boot-partition).
+Alternativamente, você pode pré selecionar o idioma antes de inicializar o NOOBS pela primeira vez. Vê [aqui](https://github.com/raspberrypi/noobs/blob/master/README.md#how-to-change-the-default-language-keyboard-layout-display-mode-or-boot-partition).
 
 ### Raspbian
 
-If you've installed Raspbian using NOOBS, it should automatically pick up the same language you were using within NOOBS. But if you want to select a different language, or if you've installed Raspbian from a standalone image, use [raspi-config](raspi-config.md#change-locale).
+Se você instalou o Raspbian usando o NOOBS, ele deve retirar automaticamente o mesmo idioma que tu estavas a usar no NOOBS. Mas se tu desejares selecionar um idioma diferente ou se tu instalas-te o Raspbian a partir de uma imagem independente, utiliza [raspi-config](raspi-config.md#change-locale).
 
 
-## Keyboard
+## Teclado
 
 ### NOOBS
 
-To change the keyboard layout used by NOOBS, you can either press the `9` key on your keyboard, press the up/down arrows to choose the keyboard you want, and then press `Enter`; or you can do the same thing using the mouse. Note that changing the language (as described above) may automatically change the keyboard layout as appropriate too. NOOBS will remember your selection and use the same keyboard layout again next time.
+Para alterar o layout do teclado usado pelo NOOBS, tu podes pressionar a tecla `9` no seu teclado, pressionar as setas para cima/para baixo para escolher o teclado desejado e, em seguida, pressionar `Enter` ou tu podes fazer o mesmo usando o rato. Nota que alterar o idioma (como descrito acima) pode alterar automaticamente o layout do teclado conforme apropriado também. O NOOBS lembrará a tua escolha e usará o mesmo layout de teclado novamente na próxima vez.
 
-Alternatively, you can pre-select the keyboard before booting NOOBS for the first time. See [here](https://github.com/raspberrypi/noobs/blob/master/README.md#how-to-change-the-default-language-keyboard-layout-display-mode-or-boot-partition).
+Alternativamente, tu podes pré-selecionar o teclado antes de iniciar o NOOBS pela primeira vez. Vê [aqui](https://github.com/raspberrypi/noobs/blob/master/README.md#how-to-change-the-default-language-keyboard-layout-display-mode-or-boot-partition).
 
 ### Raspbian
 
 If you've installed Raspbian using NOOBS, it should automatically pick up the same keyboard you were using in NOOBS. But if you want to select a different keyboard, or if you've installed Raspbian from a standalone image, use [raspi-config](raspi-config.md#change-keyboard-layout).
 
+Se tu instas-te o Raspbian usando o NOOBS, ele deve retirar automaticamente o mesmo teclado que estava usando no NOOBS. Mas se tu quiseres selecionar um teclado diferente, ou se tu instas-te o Raspbian a partir de uma imagem independente , utiliza [raspi-config](raspi-config.md#change-keyboard-layout).
 
-## Timezone
+
+## Fuso horário
 
 ### NOOBS
 
-No part of NOOBS uses the time; consequently there is no option for changing the timezone.
+Nenhuma parte do NOOBS usa o tempo, consequentemente, não há opção para alterar o fuso horário.
 
 ### Raspbian
 
 Once again, this is something you can change using the [raspi-config](raspi-config.md#change-timezone) tool.
+Mais uma vez, isso é algo que tu podes mudar usando a ferramenta [raspi-config](raspi-config.md#change-timezone).
+
