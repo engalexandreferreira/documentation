@@ -1,3 +1,3 @@
 # config.txt
 
-This file has moved to [config-txt/README.md](config-txt/README.md)
+Este ficheiro foi movido para [config-txt/README.md](config-txt/README.md)
