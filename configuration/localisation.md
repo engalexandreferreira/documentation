@@ -26,8 +26,6 @@ Alternativamente, tu podes pré-selecionar o teclado antes de iniciar o NOOBS pe
 
 ### Raspbian
 
-If you've installed Raspbian using NOOBS, it should automatically pick up the same keyboard you were using in NOOBS. But if you want to select a different keyboard, or if you've installed Raspbian from a standalone image, use [raspi-config](raspi-config.md#change-keyboard-layout).
-
 Se tu instas-te o Raspbian usando o NOOBS, ele deve retirar automaticamente o mesmo teclado que estava usando no NOOBS. Mas se tu quiseres selecionar um teclado diferente, ou se tu instas-te o Raspbian a partir de uma imagem independente , utiliza [raspi-config](raspi-config.md#change-keyboard-layout).
 
 
